@@ -1,0 +1,37 @@
+Set-Content -Path "index.html" -Value @'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Surge - DevOps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf2f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 2px solid #fad2e1;
+            border-radius: 12px;
+            padding: 35px 45px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        h1 { color: #d85a8a; margin-bottom: 10px; }
+        p { color: #555; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Despliegue con Surge.sh</h1>
+        <p>Integración Continua con GitHub Actions - ITLA</p>
+    </div>
+</body>
+</html>
+'@
