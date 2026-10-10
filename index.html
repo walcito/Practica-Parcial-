@@ -1,10 +1,9 @@
-Set-Content -Path "index.html" -Value @'
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica Surge - DevOps</title>
+    <title>Práctica Surge - DevOps</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,12 +18,19 @@ Set-Content -Path "index.html" -Value @'
             background-color: #ffffff;
             border: 2px solid #fad2e1;
             border-radius: 12px;
-            padding: 35px 45px;
+            padding: 40px 50px;
             text-align: center;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 15px rgba(216, 90, 138, 0.1);
         }
-        h1 { color: #d85a8a; margin-bottom: 10px; }
-        p { color: #555; }
+        h1 {
+            color: #d85a8a;
+            margin-bottom: 12px;
+            font-size: 2rem;
+        }
+        p {
+            color: #555;
+            font-size: 1.1rem;
+        }
     </style>
 </head>
 <body>
@@ -34,4 +40,3 @@ Set-Content -Path "index.html" -Value @'
     </div>
 </body>
 </html>
-'@
